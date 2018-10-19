@@ -34,33 +34,8 @@
         {{navigation}}
       </nav>
       <div>
-        <span class="print-data copyright-notice">
-          &copy; {{date format="YYYY"}}
-          <a href="{{@blog.url}}/">{{@blog.title}}</a>
-          &nbsp;&bull;&nbsp;
-        </span>
-
-        <span>
-
-          <a href="http://github.com/curiositry/mnml-ghost-theme">mnml</a>
-          theme by
-          <a href="http://curiositry.github.io">Curiositry</a>
-        </span>
-
-        <span>
-         &nbsp;&bull;&nbsp;
-         Proudly published with
-          <a href="https://ghost.org"><span class="icon-ghost typl8-zeta"></span><span class="hidden">Ghost</span></a>             </span>
       </div>
     </footer>
-
-    <!--
-    This generates a handsome modal menu and hamburger icon. If you want to use it, edit     menu.hbs and add your links (line ~146), then remove the ! from this helper to           activate it.
-    -->
-    {{#if @blog.navigation}}
-      {{>menu}}
-    {{/if}}
-
 
     <!-- Ghost outputs important scripts and data with this tag -->
     {{ghost_foot}}

@@ -1251,6 +1251,10 @@ figure.kg-embed-card * {
   color: #0077B5;
 }
 
+.icon-github{
+  color: #000000;
+}
+
 .share .icon-twitter,
 .author-profile .icon-twitter,
 .icon-twitter:hover{

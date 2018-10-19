@@ -78,10 +78,9 @@ code[class*=language-],pre[class*=language-]{color:#000;text-shadow:0 1px #fff;f
 .icon-linkedin:before {
   content: "\e009";
 }
-
-
-
-
+.icon-github:before {
+    content: "\e010";
+}
 
 /* FONTS */
 

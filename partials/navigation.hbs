@@ -1,9 +1,9 @@
 <ul class="nav">
-    {{#foreach navigation}}
-    <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation">
-      <a href="{{url absolute="true"}}">{{label}}</a>
-    </li>
-    {{/foreach}}
+    <span class="print-data copyright-notice">
+      &copy; {{date format="YYYY"}}
+        <a href="{{@blog.url}}/">{{@blog.title}}</a>
+      &nbsp;&bull;&nbsp;
+    </span>
     {{! Social media links }}
     {{#if @blog.facebook}}
     <span class="meta-spacer"></span>
@@ -16,4 +16,10 @@
         <a href="{{twitter_url}}"><span class="icon-twitter"></span></a>
       </li>
     {{/if}}
+    <li class="nav-http://github.com/jpoon{{#if current}} nav-current{{/if}}" role="presentation">
+      <a href="http://github.com/jpoon"><span class="icon-github"></span></a>
+    </li>
+    <li class="nav-http://linkedin.com/in/poonjas{{#if current}} nav-current{{/if}}" role="presentation">
+      <a href="http://linkedin.com/in/poonjas"><span class="icon-linkedin"></span></a>
+    </li>
 </ul>
